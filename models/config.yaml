@@ -131,3 +131,6 @@
 .*incite.*instruct:
   mode: 'instruct'
   instruction_template: 'INCITE-Instruct'
+gpt[-_]?4chan.*:
+  model_type: 'gptj'
+  mode: 'default'
